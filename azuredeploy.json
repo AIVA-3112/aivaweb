@@ -1,0 +1,10 @@
+{
+  "deployTo": "Azure App Service",
+  "buildTool": "Vite",
+  "nodeVersion": "18.17.0",
+  "startupCommand": "npm run start",
+  "appSettings": {
+    "NODE_ENV": "production",
+    "PORT": "8080"
+  }
+}
